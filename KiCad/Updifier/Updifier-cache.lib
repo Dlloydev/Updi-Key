@@ -1,0 +1,366 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x03
+#
+DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x03_Odd_Even
+#
+DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Schottky_Small
+#
+DEF Device_D_Schottky_Small D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "Device_D_Schottky_Small" -280 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED_ALT
+#
+DEF Device_LED_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L_Small
+#
+DEF Device_L_Small L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Device_L_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MCU_Microchip_ATtiny_ATtiny202-SS
+#
+DEF MCU_Microchip_ATtiny_ATtiny202-SS U 0 20 Y Y 1 F N
+F0 "U" -500 550 50 H V L BNN
+F1 "MCU_Microchip_ATtiny_ATtiny202-SS" 100 -550 50 H V L TNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+ALIAS ATtiny402-SS ATtiny212-SS ATtiny412-SS
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -500 -500 500 500 0 1 10 f
+X VCC 1 0 600 100 D 50 50 1 1 W
+X PA6 2 600 -100 100 L 50 50 1 1 B
+X PA7 3 600 -200 100 L 50 50 1 1 B
+X PA1 4 600 200 100 L 50 50 1 1 B
+X PA2 5 600 100 100 L 50 50 1 1 B
+X ~RESET~/PA0 6 600 300 100 L 50 50 1 1 B
+X PA3 7 600 0 100 L 50 50 1 1 B
+X GND 8 0 -600 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Mechanical_Fiducial
+#
+DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_ISL43210IHZ-T
+#
+DEF SamacSys_Parts_ISL43210IHZ-T IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SamacSys_Parts_ISL43210IHZ-T" 850 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 850 100 50 H I L CNN
+F3 "https://www.renesas.com/en-us/www/doc/datasheet/isl43210.pdf" 850 0 50 H I L CNN
+F4 "Switches/MUXs/Crosspoints Low-Voltage, Single Supply, Single SPDT Analog Switch" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Renesas Electronics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ISL43210IHZ-T" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "ISL43210IHZ-T" 850 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/isl43210ihz-t/renesas-electronics" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "968-ISL43210IHZ-T" 850 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Renesas-Intersil/ISL43210IHZ-T?qs=9fLuogzTs8IzNDzK%2FTk%2FfQ%3D%3D" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X IN 1 0 0 200 R 50 50 0 0 P
+X V+ 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X NC 4 1000 -200 200 L 50 50 0 0 P
+X COM 5 1000 -100 200 L 50 50 0 0 P
+X NO 6 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_MIC2091-1YM5-TR
+#
+DEF SamacSys_Parts_MIC2091-1YM5-TR PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_MIC2091-1YM5-TR" 1050 200 50 H V L CNN
+F2 "SOT95P280X130-5N" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/MIC2091-1YM5-TR.pdf" 1050 0 50 H I L CNN
+F4 "MICROCHIP - MIC2091-1YM5-TR - POWER SWITCH, 100MA, SOT23-5" 1050 -100 50 H I L CNN "Description"
+F5 "1.3" 1050 -200 50 H I L CNN "Height"
+F6 "Microchip" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MIC2091-1YM5-TR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MIC2091-1YM5-TR" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/mic2091-1ym5-tr/microchip-technology" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "998-MIC2091-1YM5TR" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2091-1YM5-TR?qs=Y3Q3JoKAO1RvtmzBukqSAw%3D%3D" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X VIN 1 0 0 200 R 50 50 0 0 W
+X GND 2 0 -100 200 R 50 50 0 0 W
+X EN 3 0 -200 200 R 50 50 0 0 O
+X FAULT/ 4 1200 0 200 L 50 50 0 0 O
+X VOUT 5 1200 -100 200 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_NCP1406SNT1G
+#
+DEF SamacSys_Parts_NCP1406SNT1G IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SamacSys_Parts_NCP1406SNT1G" 850 200 50 H V L CNN
+F2 "SOT95P275X110-5N" 850 100 50 H I L CNN
+F3 "" 850 -200 50 H I L CNN
+F4 "1.1" 850 -200 50 H I L CNN "Height"
+F5 "ON Semiconductor" 850 -300 50 H I L CNN "Manufacturer_Name"
+F6 "NCP1406SNT1G" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "NCP1406SNT1G" 850 -500 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/ncp1406snt1g/on-semiconductor" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F9 "863-NCP1406SNT1G" 850 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NCP1406SNT1G" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X CE 1 0 0 200 R 50 50 0 0 P
+X FB 2 0 -100 200 R 50 50 0 0 P
+X VDD 3 0 -200 200 R 50 50 0 0 W
+X GND 4 1000 -200 200 L 50 50 0 0 W
+X LX 5 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_PTS810SJG250SMTRLFS
+#
+DEF SamacSys_Parts_PTS810SJG250SMTRLFS S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_PTS810SJG250SMTRLFS" 1050 200 50 H V L CNN
+F2 "PTS810SJG250SMTRLFS" 1050 100 50 H I L CNN
+F3 "https://www.ckswitches.com/media/1476/pts810.pdf" 1050 0 50 H I L CNN
+F4 "PTS810SJG250SMTRLFS (Tactile Switches) Switch Tactile N.O. SPST Button J-Bend 0.05A 16VDC 100000Cycles 3.92N SMD T/R" 1050 -100 50 H I L CNN "Description"
+F5 "2.7" 1050 -200 50 H I L CNN "Height"
+F6 "C & K COMPONENTS" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PTS810SJG250SMTRLFS" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "611-PTS810SJG250SMTR" 1050 -700 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CK/PTS810SJG250SMTRLFS?qs=UxeAxwACbqndUPIQjZosiw%3D%3D" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 1200 0 200 L 50 50 0 0 P
+X COM_1 3 0 -100 200 R 50 50 0 0 P
+X COM_2 4 1200 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_SN74LVC1G3157DBVR
+#
+DEF SamacSys_Parts_SN74LVC1G3157DBVR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SamacSys_Parts_SN74LVC1G3157DBVR" 850 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 850 100 50 H I L CNN
+F3 "http://componentsearchengine.com/Datasheets/1/SN74LVC1G3157DBVR.pdf" 850 0 50 H I L CNN
+F4 "SINGLE-POLE, DOUBLE-THROW ANALOG SWITCH" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN74LVC1G3157DBVR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "SN74LVC1G3157DBVR" 850 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/sn74lvc1g3157dbvr/texas-instruments" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "595-SN74LVC1G3157DBV" 850 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DBVR?qs=PVVDbbWpW3ID6l2sElWeMw%3D%3D" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X NO 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 P
+X COM 4 1000 -200 200 L 50 50 0 0 P
+X VCC 5 1000 -100 200 L 50 50 0 0 P
+X S 6 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Updifier_0ZCM0005FF2G
+#
+DEF Updifier_0ZCM0005FF2G F 0 0 N Y 1 F N
+F0 "F" -75 0 50 V V C CNN
+F1 "Updifier_0ZCM0005FF2G" 75 0 50 V V C CNN
+F2 "" 50 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *polyfuse*
+ *PTC*
+$ENDFPLIST
+DRAW
+S -20 50 20 -50 0 1 0 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 -40 50 -40 30 40 -30 40 -50 N
+X ~ 1 0 100 25 D 50 50 1 1 P
+X ~ 2 0 -100 25 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,258 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0603L010YR
+#
+DEF 0603L010YR F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "0603L010YR" 550 150 50 H V L CNN
+F2 "FUSC1608X75N" 550 50 50 H I L CNN
+F3 "https://www.arrow.com/en/products/0603l010yr/littelfuse" 550 -50 50 H I L CNN
+F4 "Littelfuse 0.1A Surface Mount Resettable Fuse, 15 V dc" 550 -150 50 H I L CNN "Description"
+F5 "0.75" 550 -250 50 H I L CNN "Height"
+F6 "LITTELFUSE" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0603L010YR" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "0603L010YR" 550 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/0603l010yr/littelfuse" 550 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "576-0603L010YR" 550 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=576-0603L010YR" 550 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 500 0 N
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# APTD1608SECK_J4-PF
+#
+DEF APTD1608SECK_J4-PF LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "APTD1608SECK_J4-PF" 500 250 50 H V L BNN
+F2 "LEDM168X110N" 500 150 50 H I L BNN
+F3 "https://www.mouser.com/datasheet/2/216/APTD1608SECK-J4-PF-472092.pdf" 500 50 50 H I L BNN
+F4 "Standard LEDs - SMD 1.6 X 0.8 MM DOME LENS ORANGE SMD" 500 -50 50 H I L BNN "Description"
+F5 "1.1" 500 -150 50 H I L BNN "Height"
+F6 "Kingbright" 500 -250 50 H I L BNN "Manufacturer_Name"
+F7 "APTD1608SECK/J4-PF" 500 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "APTD1608SECK/J4-PF" 500 -450 50 H I L BNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/aptd1608seckj4-pf/kingbright" 500 -550 50 H I L BNN "Arrow Price/Stock"
+F10 "604-APTD1608SECKJ4PF" 500 -650 50 H I L BNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=604-APTD1608SECKJ4PF" 500 -750 50 H I L BNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+X K 1 0 0 100 R 50 50 0 0 P
+X A 2 600 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# FPF2123
+#
+DEF FPF2123 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "FPF2123" 950 200 50 H V L CNN
+F2 "SOT95P280X140-5N" 950 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/0d1d/0900766b80d1dd55.pdf" 950 0 50 H I L CNN
+F4 "FPF2123, Load Share Controller, 1.8 to 5.5V, 5-Pin, SOT-23" 950 -100 50 H I L CNN "Description"
+F5 "1.4" 950 -200 50 H I L CNN "Height"
+F6 "ON Semiconductor" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "FPF2123" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "FPF2123" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/fpf2123/on-semiconductor" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "512-FPF2123" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FPF2123?qs=VOMQJJE%252BBNm5nVRRGrmcMQ%3D%3D" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+X VIN 1 0 0 200 R 50 50 0 0 I
+X GND 2 0 -100 200 R 50 50 0 0 W
+X ON 3 0 -200 200 R 50 50 0 0 P
+X ISET 4 1100 0 200 L 50 50 0 0 P
+X VOUT 5 1100 -100 200 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
+# ISL43210IHZ-T
+#
+DEF ISL43210IHZ-T IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "ISL43210IHZ-T" 850 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 850 100 50 H I L CNN
+F3 "https://www.renesas.com/en-us/www/doc/datasheet/isl43210.pdf" 850 0 50 H I L CNN
+F4 "Switches/MUXs/Crosspoints Low-Voltage, Single Supply, Single SPDT Analog Switch" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Renesas Electronics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ISL43210IHZ-T" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "ISL43210IHZ-T" 850 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/isl43210ihz-t/renesas-electronics" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "968-ISL43210IHZ-T" 850 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Renesas-Intersil/ISL43210IHZ-T?qs=9fLuogzTs8IzNDzK%2FTk%2FfQ%3D%3D" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X IN 1 0 0 200 R 50 50 0 0 P
+X V+ 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X NC 4 1000 -200 200 L 50 50 0 0 P
+X COM 5 1000 -100 200 L 50 50 0 0 P
+X NO 6 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# MIC2091-1YM5-TR
+#
+DEF MIC2091-1YM5-TR PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "MIC2091-1YM5-TR" 1050 200 50 H V L CNN
+F2 "SOT95P280X130-5N" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/MIC2091-1YM5-TR.pdf" 1050 0 50 H I L CNN
+F4 "MICROCHIP - MIC2091-1YM5-TR - POWER SWITCH, 100MA, SOT23-5" 1050 -100 50 H I L CNN "Description"
+F5 "1.3" 1050 -200 50 H I L CNN "Height"
+F6 "Microchip" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MIC2091-1YM5-TR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MIC2091-1YM5-TR" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/mic2091-1ym5-tr/microchip-technology" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "998-MIC2091-1YM5TR" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2091-1YM5-TR?qs=Y3Q3JoKAO1RvtmzBukqSAw%3D%3D" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X VIN 1 0 0 200 R 50 50 0 0 W
+X GND 2 0 -100 200 R 50 50 0 0 W
+X EN 3 0 -200 200 R 50 50 0 0 O
+X FAULT/ 4 1200 0 200 L 50 50 0 0 O
+X VOUT 5 1200 -100 200 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
+# NCP1406SNT1G
+#
+DEF NCP1406SNT1G IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "NCP1406SNT1G" 850 200 50 H V L CNN
+F2 "SOT95P275X110-5N" 850 100 50 H I L CNN
+F3 "" 850 -200 50 H I L CNN
+F4 "1.1" 850 -200 50 H I L CNN "Height"
+F5 "ON Semiconductor" 850 -300 50 H I L CNN "Manufacturer_Name"
+F6 "NCP1406SNT1G" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "NCP1406SNT1G" 850 -500 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/ncp1406snt1g/on-semiconductor" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F9 "863-NCP1406SNT1G" 850 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NCP1406SNT1G" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X CE 1 0 0 200 R 50 50 0 0 P
+X FB 2 0 -100 200 R 50 50 0 0 P
+X VDD 3 0 -200 200 R 50 50 0 0 W
+X GND 4 1000 -200 200 L 50 50 0 0 W
+X LX 5 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# NE555DR
+#
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# SN74LVC1G3157DBVR
+#
+DEF SN74LVC1G3157DBVR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SN74LVC1G3157DBVR" 850 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 850 100 50 H I L CNN
+F3 "http://componentsearchengine.com/Datasheets/1/SN74LVC1G3157DBVR.pdf" 850 0 50 H I L CNN
+F4 "SINGLE-POLE, DOUBLE-THROW ANALOG SWITCH" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN74LVC1G3157DBVR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "SN74LVC1G3157DBVR" 850 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/sn74lvc1g3157dbvr/texas-instruments" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "595-SN74LVC1G3157DBV" 850 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DBVR?qs=PVVDbbWpW3ID6l2sElWeMw%3D%3D" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X NO 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 P
+X COM 4 1000 -200 200 L 50 50 0 0 P
+X VCC 5 1000 -100 200 L 50 50 0 0 P
+X S 6 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PTS645SM43SMTR92_LFS
+#/548031/220268/2.47/4/4/Switch
+DEF PTS645SM43SMTR92_LFS S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "PTS645SM43SMTR92_LFS" 1050 200 50 H V L CNN
+F2 "PTS645SM43SMTR92LFS" 1050 100 50 H I L CNN
+F3 "https://www.ckswitches.com/media/1471/pts645.pdf" 1050 0 50 H I L CNN
+F4 "SWITCH TACTILE SPST-NO 0.05A 12V" 1050 -100 50 H I L CNN "Description"
+F5 "4.3" 1050 -200 50 H I L CNN "Height"
+F6 "C & K COMPONENTS" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PTS645SM43SMTR92 LFS" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 1200 0 200 L 50 50 0 0 P
+X COM_1 3 0 -100 200 R 50 50 0 0 P
+X COM_2 4 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PTS810SJG250SMTRLFS
+#/1176602/220268/2.47/4/4/Switch
+DEF PTS810SJG250SMTRLFS S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "PTS810SJG250SMTRLFS" 1050 200 50 H V L CNN
+F2 "PTS810SJG250SMTRLFS" 1050 100 50 H I L CNN
+F3 "https://www.ckswitches.com/media/1476/pts810.pdf" 1050 0 50 H I L CNN
+F4 "PTS810SJG250SMTRLFS (Tactile Switches) Switch Tactile N.O. SPST Button J-Bend 0.05A 16VDC 100000Cycles 3.92N SMD T/R" 1050 -100 50 H I L CNN "Description"
+F5 "2.7" 1050 -200 50 H I L CNN "Height"
+F6 "C & K COMPONENTS" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PTS810SJG250SMTRLFS" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "611-PTS810SJG250SMTR" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/CK/PTS810SJG250SMTRLFS?qs=UxeAxwACbqndUPIQjZosiw%3D%3D" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 1200 0 200 L 50 50 0 0 P
+X COM_1 3 0 -100 200 R 50 50 0 0 P
+X COM_2 4 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

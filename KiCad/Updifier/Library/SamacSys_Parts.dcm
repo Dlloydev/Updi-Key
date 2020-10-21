@@ -1,0 +1,54 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0603L010YR
+D Littelfuse 0.1A Surface Mount Resettable Fuse, 15 V dc
+F https://www.arrow.com/en/products/0603l010yr/littelfuse
+$ENDCMP
+#
+$CMP APTD1608SECK_J4-PF
+D Standard LEDs - SMD 1.6 X 0.8 MM DOME LENS ORANGE SMD
+F https://www.mouser.com/datasheet/2/216/APTD1608SECK-J4-PF-472092.pdf
+$ENDCMP
+#
+$CMP FPF2123
+D FPF2123, Load Share Controller, 1.8 to 5.5V, 5-Pin, SOT-23
+F http://docs-emea.rs-online.com/webdocs/0d1d/0900766b80d1dd55.pdf
+$ENDCMP
+#
+$CMP ISL43210IHZ-T
+D Switches/MUXs/Crosspoints Low-Voltage, Single Supply, Single SPDT Analog Switch
+F https://www.renesas.com/en-us/www/doc/datasheet/isl43210.pdf
+$ENDCMP
+#
+$CMP MIC2091-1YM5-TR
+D MICROCHIP - MIC2091-1YM5-TR - POWER SWITCH, 100MA, SOT23-5
+F https://componentsearchengine.com/Datasheets/2/MIC2091-1YM5-TR.pdf
+$ENDCMP
+#
+$CMP NCP1406SNT1G
+F https://www.onsemi.com/pub/Collateral/NCP1406-D.PDF
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SN74LVC1G3157DBVR
+D SINGLE-POLE, DOUBLE-THROW ANALOG SWITCH
+F http://componentsearchengine.com/Datasheets/1/SN74LVC1G3157DBVR.pdf
+$ENDCMP
+#
+$CMP PTS645SM43SMTR92_LFS
+D SWITCH TACTILE SPST-NO 0.05A 12V
+K
+F https://www.ckswitches.com/media/1471/pts645.pdf
+$ENDCMP
+#
+$CMP PTS810SJG250SMTRLFS
+D PTS810SJG250SMTRLFS (Tactile Switches) Switch Tactile N.O. SPST Button J-Bend 0.05A 16VDC 100000Cycles 3.92N SMD T/R
+K
+F https://www.ckswitches.com/media/1476/pts810.pdf
+$ENDCMP
+#
+#End Doc Library

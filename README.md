@@ -2,7 +2,7 @@
 
 Coming soon...
 
-![](UpdiKey.png)
+![](docs/images/UpdiKey.png)
 
 #### What is it?
 
@@ -31,3 +31,6 @@ Unique, versatile, easy to use with the existing programming environment you're 
 - Green VTG-PC status LED and Orange HV pulse LED
 - It seems fitting that the smallest MCU in the family (ATtiny202) operates the key
 
+
+
+#### Schematic![](docs/images/Updifier.svg)
