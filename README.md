@@ -35,7 +35,7 @@ Unique, versatile, easy to use with the existing programming environment you're 
 
 | Item | Qty  | Reference   | Manufacturer  Number                                         | Digi-Key Part Number     | Description                                                |
 | ---- | ---- | ----------- | ------------------------------------------------------------ | ------------------------ | ---------------------------------------------------------- |
-| 1    | 3    | C1, C7, C8  | [CL10B104KB8NNNC](http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNNC.jsp) | 1276-1000-1-ND           | CAP CER 0.1UF 50V X7R 0603                                 |
+| 1    | 3    | C1, C7, C8  | [CL10B104KB8NNNC](https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf) | 1276-1000-1-ND           | CAP CER 0.1UF 50V X7R 0603                                 |
 | 2    | 1    | C6          | [CL10A475KO8NNNC](https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A475KO8NNNC_Spec.pdf) | 1276-1784-1-ND           | CAP CER 4.7UF 16V X5R 0603                                 |
 | 3    | 1    | D2          | [PMEG4005CEJX](https://assets.nexperia.com/documents/data-sheet/PMEG4005CEJ.pdf) | 1727-8169-1-ND           | DIODE SCHOTTKY 40V 500MA SC90                              |
 | 4    | 2    | R8, R9      | [RK73B1JTTD102J](http://www.koaspeer.com/pdfs/RK73B.pdf)     | 2019-K73B1JTTD102JCT-ND  | RES 1K OHM 5% 1/8W 0603                                    |
@@ -48,9 +48,9 @@ Unique, versatile, easy to use with the existing programming environment you're 
 | 11   | 1    | VTG1        | [LG Q396-PS-35](https://dammedia.osram.info/media/resource/hires/osram-dam-2493948/LG%20Q396.pdf) | 475-3754-1-ND            | LED GREEN DIFFUSED 0603 SMD                                |
 | 12   | 1    | F1          | [0ZCM0005FF2G](https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcm-series.pdf) | 507-1816-1-ND            | PTC RESET FUSE 15V 50MA 0603                               |
 | 13   | 1    | U3          | [MIC2091-1YM5-TR](http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579481) | 576-3891-1-ND            | MICROCHIP - MIC2091-1YM5-TR - POWER SWITCH, 100MA, SOT23-5 |
-| 14   | 1    | L1          | [CBC2518T470K]()                                             | 587-3060-1-ND            | FIXED IND 47UH 290MA 2.47 OHM                              |
-| 15   | 3    | C2, C3, C5  | [LMK107BBJ106MALT](http://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf) | 587-3258-1-ND            | CAP CER 10UF 10V X5R 0603                                  |
-| 16   | 1    | HV1         | [APTD1608SECK/J4-PF](APTD1608SECK/J4-PF)                     | 754-1802-1-ND            | LED ORANGE CLEAR 0603 (1608 Metric)                        |
+| 14   | 1    | L1          | [CBC2518T470K](https://www.mouser.ca/datasheet/2/396/wound02_e-13113-1206718.pdf) | 587-3060-1-ND            | FIXED IND 47UH 290MA 2.47 OHM                              |
+| 15   | 3    | C2, C3, C5  | [LMK107BBJ106MALT](https://www.mouser.ca/datasheet/2/396/wound02_e-13113-1206718.pdf) | 587-3258-1-ND            | CAP CER 10UF 10V X5R 0603                                  |
+| 16   | 1    | HV1         | [APTD1608SECK/J4-PF](https://www.mouser.ca/datasheet/2/216/APTD1608SECK-J4-PF-472092.pdf) | 754-1802-1-ND            | LED ORANGE CLEAR 0603 (1608 Metric)                        |
 | 17   | 1    | U1          | [ATTINY202-SSNR](http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny202-402-AVR-MCU-with-Core-Independent-Peripherals_and-picoPower-40001969A.pdf) | ATTINY202-SSNRCT-ND      | IC MCU 8BIT 2KB FLASH 8SOIC                                |
 | 18   | 1    | SW3         | [PTS810SJG250SMTRLFS](https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS810/documents/datasheet.pdf) | CKN10504CT-ND            | SWITCH TACTILE SPST-NO 0.05A 16V                           |
 | 19   | 1    | SW2         | [ISL43210IHZ-T](https://www.renesas.com/en-us/www/doc/datasheet/isl43210.pdf) | ISL43210IHZCT-ND         | IC SWITCH SPDT SOT23-6, Marking GJQG                       |
