@@ -33,4 +33,4 @@ Unique, versatile, easy to use with the existing programming environment you're 
 
 
 
-#### Schematic![](docs/images/Updifier.svg)
+#### Schematic![](docs/images/Updifier.png)
