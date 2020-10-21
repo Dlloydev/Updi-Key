@@ -1,7 +1,5 @@
 # Updi-Key
 
-Coming soon...
-
 ![](docs/images/UpdiKey.png)
 
 #### What is it?
@@ -60,7 +58,25 @@ Unique, versatile, easy to use with the existing programming environment you're 
 
 #### Firmware Installation
 
-Coming soon...
+1. Connect a UPDI programmer to J3 (Pin2  VTG to VCC, Pin3 PROG to UPDI, Pin6 to GND)
+
+2. Install the latest version of [megaTinyCore](https://github.com/SpenceKonde/megaTinyCore/blob/master/Installation.md)
+
+3. Install the [Updi-Key Firmware](https://github.com/Dlloydev/Updi-Key) 
+
+   ●  Click on the green "Clone or download" button, then select "Download ZIP".
+
+   ●  Unzip this file in a folder on your PC.
+
+   ●  In the Arduino IDE, open the sketch "UpdiKey.ino" in the "source\updikey" folder
+
+   ●  Use these board settings:
+
+   ![megaTinyCoreSettings](docs/images/megaTinyCoreSettings.png)
+
+   
+
+   ●  Finally, select "Burn Bootloader" then "Upload Using Programmer" from the Arduino IDE.  Updi-Key is now ready to use.
 
 #### Functional Description
 
