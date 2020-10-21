@@ -31,6 +31,8 @@ Unique, versatile, easy to use with the existing programming environment you're 
 - Green VTG-PC status LED and Orange HV pulse LED
 - It seems fitting that the smallest MCU in the family (ATtiny202) operates the key
 
+#### Updi-Key Digi-Key BOM
 
+Coming soon...
 
 #### Schematic![](docs/images/Updifier.png)
