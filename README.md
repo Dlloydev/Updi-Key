@@ -33,6 +33,35 @@ Unique, versatile, easy to use with the existing programming environment you're 
 
 #### Updi-Key Digi-Key BOM
 
-Coming soon...
+| Item | Qty  | Reference   | Manufacturer  Number                                         | Digi-Key Part Number     | Description                                                |
+| ---- | ---- | ----------- | ------------------------------------------------------------ | ------------------------ | ---------------------------------------------------------- |
+| 1    | 3    | C1, C7, C8  | [CL10B104KB8NNNC](http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KB8NNNC.jsp) | 1276-1000-1-ND           | CAP CER 0.1UF 50V X7R 0603                                 |
+| 2    | 1    | C6          | [CL10A475KO8NNNC](https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A475KO8NNNC_Spec.pdf) | 1276-1784-1-ND           | CAP CER 4.7UF 16V X5R 0603                                 |
+| 3    | 1    | D2          | [PMEG4005CEJX](https://assets.nexperia.com/documents/data-sheet/PMEG4005CEJ.pdf) | 1727-8169-1-ND           | DIODE SCHOTTKY 40V 500MA SC90                              |
+| 4    | 2    | R8, R9      | [RK73B1JTTD102J](http://www.koaspeer.com/pdfs/RK73B.pdf)     | 2019-K73B1JTTD102JCT-ND  | RES 1K OHM 5% 1/8W 0603                                    |
+| 5    | 3    | R3, R4, R10 | [RK73B1JTTD103J](http://www.koaspeer.com/pdfs/RK73B.pdf)     | 2019-RK73B1JTTD103JCT-ND | RES 10K OHM 5% 1/10W 0603                                  |
+| 6    | 2    | R11, R12    | [RK73B1JTTD181J](http://www.koaspeer.com/pdfs/RK73B.pdf)     | 2019-RK73B1JTTD181JCT-ND | RES 180 OHM 5% 1/8W 0603                                   |
+| 7    | 1    | SW1         | [SN74LVC1G3157DBVR](http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g3157) | 296-14908-1-ND           | IC SWITCH SPDT SOT23-6                                     |
+| 8    | 1    | R6          | [RC0603FR-0711KL](https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf) | 311-11.0KHRCT-ND         | RES SMD 11K OHM 1% 1/10W 0603                              |
+| 9    | 1    | R5          | [RC0603FR-07102KL](https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf) | 311-102KHRCT-ND          | RES SMD 102K OHM 1% 1/10W 0603                             |
+| 10   | 1    | C4          | [CC0603BRNPO9BNR68](https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf) | 311-3842-1-ND            | CAP CER 0.68PF 50V NPO 0603                                |
+| 11   | 1    | VTG1        | [LG Q396-PS-35](https://dammedia.osram.info/media/resource/hires/osram-dam-2493948/LG%20Q396.pdf) | 475-3754-1-ND            | LED GREEN DIFFUSED 0603 SMD                                |
+| 12   | 1    | F1          | [0ZCM0005FF2G](https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcm-series.pdf) | 507-1816-1-ND            | PTC RESET FUSE 15V 50MA 0603                               |
+| 13   | 1    | U3          | [MIC2091-1YM5-TR](http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579481) | 576-3891-1-ND            | MICROCHIP - MIC2091-1YM5-TR - POWER SWITCH, 100MA, SOT23-5 |
+| 14   | 1    | L1          | [CBC2518T470K]()                                             | 587-3060-1-ND            | FIXED IND 47UH 290MA 2.47 OHM                              |
+| 15   | 3    | C2, C3, C5  | [LMK107BBJ106MALT](http://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf) | 587-3258-1-ND            | CAP CER 10UF 10V X5R 0603                                  |
+| 16   | 1    | HV1         | [APTD1608SECK/J4-PF](APTD1608SECK/J4-PF)                     | 754-1802-1-ND            | LED ORANGE CLEAR 0603 (1608 Metric)                        |
+| 17   | 1    | U1          | [ATTINY202-SSNR](http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny202-402-AVR-MCU-with-Core-Independent-Peripherals_and-picoPower-40001969A.pdf) | ATTINY202-SSNRCT-ND      | IC MCU 8BIT 2KB FLASH 8SOIC                                |
+| 18   | 1    | SW3         | [PTS810SJG250SMTRLFS](https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS810/documents/datasheet.pdf) | CKN10504CT-ND            | SWITCH TACTILE SPST-NO 0.05A 16V                           |
+| 19   | 1    | SW2         | [ISL43210IHZ-T](https://www.renesas.com/en-us/www/doc/datasheet/isl43210.pdf) | ISL43210IHZCT-ND         | IC SWITCH SPDT SOT23-6, Marking GJQG                       |
+| 20   | 1    | U2          | [NCP1406SNT1G](http://www.onsemi.com/pub/Collateral/NCP1406-D.PDF) | NCP1406SNT1GOSCT-ND      | IC REG BUCK BST ADJ 25MA 5TSOP                             |
 
 #### Schematic![](docs/images/Updifier.png)
+
+#### Firmware Installation
+
+Coming soon...
+
+#### Functional Description
+
+Coming soon...

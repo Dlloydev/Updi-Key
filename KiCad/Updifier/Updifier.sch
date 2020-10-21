@@ -4,12 +4,12 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "UpdiKey"
-Date "2020-09-10"
+Title "Updi-Key"
+Date "2020-10-21"
 Rev "v1.0"
 Comp ""
-Comment1 "for targets tinyAVR® 0-1-2 series"
-Comment2 "Automatically activates UPDI mode"
+Comment1 "for targets tinyAVR® 0-1-2 series with 3 to 5V target voltage"
+Comment2 "Automatically activates UPDI mode and provides power-cycle"
 Comment3 "Converts any UPDI programmer to HV-UPDI"
 Comment4 ""
 $EndDescr
@@ -240,18 +240,6 @@ Wire Wire Line
 	1600 1950 1600 2550
 Wire Wire Line
 	1600 2750 1600 3250
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J3
-U 1 1 5F60EDA6
-P 8950 5150
-F 0 "J3" H 9000 5375 50  0000 C CNN
-F 1 "UPDI_IN6" H 9000 4925 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8950 5150 50  0001 C CNN
-F 3 "~" H 8950 5150 50  0001 C CNN
-F 4 "Pin header, male, 2.54mm, 6-position" H 8950 5150 50  0001 C CNN "Description"
-	1    8950 5150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 5F614186
@@ -1010,7 +998,6 @@ NoConn ~ 9250 5150
 NoConn ~ 8750 5250
 NoConn ~ 8750 5800
 NoConn ~ 9250 5700
-NoConn ~ 8850 5300
 Wire Wire Line
 	6950 1800 6950 2350
 Connection ~ 8050 2800
@@ -1092,4 +1079,16 @@ Wire Wire Line
 Connection ~ 3550 5300
 Wire Wire Line
 	3550 5300 4350 5300
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J3
+U 1 1 5F60EDA6
+P 8950 5150
+F 0 "J3" H 9000 5375 50  0000 C CNN
+F 1 "UPDI_IN6" H 9000 4925 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8950 5150 50  0001 C CNN
+F 3 "~" H 8950 5150 50  0001 C CNN
+F 4 "Pin header, male, 2.54mm, 6-position" H 8950 5150 50  0001 C CNN "Description"
+	1    8950 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
