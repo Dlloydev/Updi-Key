@@ -1,6 +1,6 @@
 # Updi-Key
 
-![](docs/images/UpdiKey.png)
+![UpdiKeyTop](docs/images/UpdiKeyTop.png)
 
 #### What is it?
 
@@ -82,10 +82,10 @@ Unique, versatile, easy to use with the existing programming environment you're 
 
 **High Voltage Programming Options**
 
-| Mode                                    | Connections                                                  | Description                                                  |
-| --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Simple High Voltage Pulse               | J4<br />1_HVUPDI 3_VTG 6_GND                                 | On power-up, Updi-Key safely transfers onto the UPDI signal and applies the 12V pulse,  triggers low to initiate the enable sequence then sends the SYNC character and the NVMPROG key, then switches the signal back to the host programmer. The target's PA0 pin remains in UPDI mode as long as power remains on. For additional programming sessions, pressing the Re-updify button is not required. If the fuses have been changed and the user wishes to have the changes take effect, then HVUPDI needs to be disconnected, then manually power-cycle (disconnect/reconnect VTG) . |
-| Auto Power Cycle and High Voltage Pulse | J4<br />1_HVUPDI 2_VTG-PC 6_GND <br /> J5<br />1_HVUPDI 2_GND 3_VTG-PC | On power-up, the target's PA0 pin is changed to UPDI mode as described above. After programming, an automatic power-cycle will occur and any new fuse settings will take effect. If re-programming is required, just press the Re-updify button first.  This power-cycles and sends the HV pulse and enable sequence to re-activate UPDI mode. |
+| Mode                                | Description                                                  |
+| ----------------------------------- | ------------------------------------------------------------ |
+| Simple High Voltage Pulse           | On power-up, Updi-Key safely transfers onto the UPDI signal and applies the 12V pulse,  triggers low to initiate the enable sequence then sends the SYNC character and the NVMPROG key, then switches the signal back to the host programmer. The target's PA0 pin remains in UPDI mode as long as power remains on. For additional programming sessions, pressing the Re-updify button is not required. If the fuses have been changed and the user wishes to have the changes take effect, then HVUPDI needs to be disconnected, then manually power-cycle (disconnect/reconnect VTG) .  Connections: J4-1 HVUPDI, J4-3 VTG, J4-6 GND |
+| Auto Power Cycle High Voltage Pulse | On power-up, the target's PA0 pin is changed to UPDI mode as described above. After programming, an automatic power-cycle will occur and any new fuse settings will take effect. If re-programming is required, just press the Re-updify button first.  This power-cycles and sends the HV pulse and enable sequence to re-activate UPDI mode.  Connections: J4-1 HVUPDI, J4-2 VTG-PC, J4-6 GND or J5-1 HVUPDI, J5-2 GND J5-3, VTG-PC |
 
 **Green VTG LED:**
 
@@ -104,3 +104,5 @@ On power-up or just after the Re-Updify button is released, the orange HV LED wi
 **Re-Updify:**
 
 This button is used just prior to re-programming when using "Auto Power Cycle and High Voltage Pulse" mode.
+
+![UpdiKeyBot](docs/images/UpdiKeyBot.png)
