@@ -74,9 +74,7 @@ Unique, versatile, easy to use with the existing programming environment you're 
 
    ![megaTinyCoreSettings](docs/images/megaTinyCoreSettings.png)
 
-   
-
-   ●  Finally, select "Burn Bootloader" then "Upload Using Programmer" from the Arduino IDE.  Updi-Key is now ready to use.
+   ●  Select "Burn Bootloader" then "Upload Using Programmer" from the Arduino IDE.  Updi-Key is now ready to use.
 
 #### Functional Description
 
