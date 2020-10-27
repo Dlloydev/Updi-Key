@@ -84,8 +84,34 @@ Unique, versatile, easy to use with the existing programming environment you're 
 
 | Mode                                | Description                                                  |
 | ----------------------------------- | ------------------------------------------------------------ |
-| Simple High Voltage Pulse           | On power-up, Updi-Key safely transfers onto the UPDI signal and applies the 12V pulse,  triggers low to initiate the enable sequence then sends the SYNC character and the NVMPROG key, then switches the signal back to the host programmer. The target's PA0 pin remains in UPDI mode as long as power remains on. For additional programming sessions, pressing the Re-updify button is not required. If the fuses have been changed and the user wishes to have the changes take effect, then HVUPDI needs to be disconnected, then manually power-cycle (disconnect/reconnect VTG) .  Connections: J4-1 HVUPDI, J4-3 VTG, J4-6 GND |
-| Auto Power Cycle High Voltage Pulse | On power-up, the target's PA0 pin is changed to UPDI mode as described above. After programming, an automatic power-cycle will occur and any new fuse settings will take effect. If re-programming is required, just press the Re-updify button first.  This power-cycles and sends the HV pulse and enable sequence to re-activate UPDI mode.  Connections: J4-1 HVUPDI, J4-2 VTG-PC, J4-6 GND or J5-1 HVUPDI, J5-2 GND J5-3, VTG-PC |
+| Simple High Voltage Pulse           | On power-up, Updi-Key safely transfers onto the UPDI signal and applies the 12V pulse,  triggers low to initiate the enable sequence then sends the SYNC character and the NVMPROG key, then switches the signal back to the host programmer. The target's PA0 pin remains in UPDI mode as long as power remains on. For additional programming sessions, pressing the Re-updify button is not required. Any changes to the fuses will get loaded on the next power-up. |
+| Auto Power Cycle High Voltage Pulse | On power-up, the target's PA0 pin is changed to UPDI mode as described above. After programming, an automatic power-cycle will occur and any new fuse settings will take effect. If re-programming is required, press the Re-updify button first.  This power-cycles and sends the HV pulse and enable sequence to re-activate UPDI mode. |
+
+**UPDI Host Pin Description**
+
+| Pin  | Name      | Type  | Description                   |
+| ---- | --------- | ----- | ----------------------------- |
+| J2-1 | UPDI-HOST | I/O   | UPDI signal from programmer   |
+| J2-2 | GND       | Power | Ground                        |
+| J2-3 | VTG       | Power | Target voltage supply (3-5V)  |
+|      |           |       |                               |
+| J3-1 | UPDI-HOST | I/O   | UPDI signal from programmer   |
+| J3-2 | VTG       | Power | Target voltage supply (3-5V)  |
+| J3-3 | PROG      | I/O   | Updi-Key UPDI programming pin |
+| J3-6 | GND       | Power | Ground                        |
+
+**UPDI Target Pin Description**
+
+| Pin  | Name          | Type  | Description                                                  |
+| ---- | ------------- | ----- | ------------------------------------------------------------ |
+| J5-1 | HVUPDI-TARGET | I/O   | HVUPDI signal to target                                      |
+| J5-2 | GND           | Power | Ground                                                       |
+| J5-3 | VTG-PC        | Power | Target voltage supply (3-5V)  with Power Cycle and 100mA current limiting |
+|      |               |       |                                                              |
+| J4-1 | HVUPDI-TARGET | I/O   | HVUPDI signal to target                                      |
+| J4-2 | VTG-PC        | Power | Target voltage supply (3-5V)  with Power Cycle and 100mA current limiting |
+| J4-3 | VTG           | I/O   | Target voltage supply (3-5V)                                 |
+| J4-6 | GND           | Power | Ground                                                       |
 
 **Green VTG LED:**
 
