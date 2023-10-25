@@ -36,7 +36,7 @@ Unique, versatile, easy to use with the existing programming environment you're 
 | 1    | 3    | C1, C7, C8  | [CL10B104KB8NNNC](https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf) | 1276-1000-1-ND           | CAP CER 0.1UF 50V X7R 0603                                 |
 | 2    | 1    | C6          | [CL10A475KO8NNNC](https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10A475KO8NNNC_Spec.pdf) | 1276-1784-1-ND           | CAP CER 4.7UF 16V X5R 0603                                 |
 | 3    | 1    | D2          | [PMEG4005CEJX](https://assets.nexperia.com/documents/data-sheet/PMEG4005CEJ.pdf) | 1727-8169-1-ND           | DIODE SCHOTTKY 40V 500MA SC90                              |
-| 4    | 2    | R8, R9      | [RK73B1JTTD102J](http://www.koaspeer.com/pdfs/RK73B.pdf)     | 2019-K73B1JTTD102JCT-ND  | RES 1K OHM 5% 1/8W 0603                                    |
+| 4    | 2    | R8, R9      | [RK73B1JTTD102J](http://www.koaspeer.com/pdfs/RK73B.pdf)     | 2019-RK73B1JTTD102JCT-ND | RES 1K OHM 5% 1/8W 0603                                    |
 | 5    | 3    | R3, R4, R10 | [RK73B1JTTD103J](http://www.koaspeer.com/pdfs/RK73B.pdf)     | 2019-RK73B1JTTD103JCT-ND | RES 10K OHM 5% 1/10W 0603                                  |
 | 6    | 2    | R11, R12    | [RK73B1JTTD181J](http://www.koaspeer.com/pdfs/RK73B.pdf)     | 2019-RK73B1JTTD181JCT-ND | RES 180 OHM 5% 1/8W 0603                                   |
 | 7    | 1    | SW1         | [SN74LVC1G3157DBVR](http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g3157) | 296-14908-1-ND           | IC SWITCH SPDT SOT23-6                                     |
